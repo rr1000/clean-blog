@@ -1,0 +1,253 @@
+body{
+  background-image: url(../img/bg.png);
+  font-family: 'Lato', sans-serif;
+}
+body a{
+  color: #0072c2;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+body a:hover{
+  color: #555;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+article.aboutMe{
+  width: 100%;
+}
+article.aboutMe img{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 0px;
+}
+h2#myModalLabel{
+  font-size: 15pt;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.mainContent{
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 20px #999;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+h3.postsHeader{
+  text-align: center;
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: 0px;
+  line-height: 1;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+h4.miniHeader{
+  float: left;
+  padding: 0px;
+  text-transform: uppercase;
+  font-size: 10pt;
+}
+h4.miniHeader a{
+  color: #0072c2;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+h4.miniHeader a:hover{
+  text-decoration: none;
+  color: #555;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+p.miniText{
+  float: left;
+  font-size: 8pt;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+nav.rightMenu{
+  float: right;
+  width: 30%;
+  background-color: #ddd;
+  padding: 20px;
+}
+nav.nav-custom{
+  background-color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+nav.nav-custom a{
+  color: #fff;
+  margin-right: 20px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+nav.nav-custom a:hover{
+  text-decoration: none;
+  color: #48a2ff;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.logoHeader{
+  width: 92%;
+  margin: auto;
+}
+h2.blogName a{
+  margin-bottom: 20px;
+  font-size: 20pt;
+  text-transform: uppercase;
+  color: #0072c2;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  letter-spacing: 3px;
+}
+article.mainPosts{
+  width: 650px;
+  margin-top: 20px;
+}
+article.mainPosts img{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+article.mainPosts h2.title{
+  font-size: 13pt;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #0072c2;
+}
+p.postDate{
+  line-height: 1;
+  font-size: 10pt;
+  font-style: italic;
+  color: #999;
+}
+footer{
+  background-color: #fff;
+  margin-top: 30px;
+  box-shadow: 1px 1px 20px #999;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+footer .leftInfo ul{
+  list-style: none;
+  text-transform: uppercase;
+  margin-left: 0px;
+}
+footer .leftInfo ul li{
+  margin-left: 10px;
+  font-size: 9pt;
+  display: inline;
+  color: #aaa;
+}
+footer p.small{
+  float: right;
+  text-transform: uppercase;
+  font-size: 9pt;
+}
+footer a.siteFooter{
+  float: right;
+  margin-right: 30px;
+  text-transform: uppercase;
+  font-size: 9pt;
+}
+.btn{
+  font-family: 'Lato', sans-serif;
+}
+/* Responsive
+-------------------------------------------------- */
+
+/* Desktop large
+------------------------- */
+@media (max-width: 1200px) {
+article.mainPosts img{
+    width: 500px;
+  }
+article.mainPosts{
+  width: 500px;
+}
+.mainContent{
+  padding: 10px;
+}
+}
+
+/* Desktop
+------------------------- */
+@media (max-width: 980px) {
+article.mainPosts img{
+    width: 370px;
+  }
+article.mainPosts{
+  width: 370px;
+}
+.mainContent{
+  padding: 10px;
+}
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (max-width: 699px) {
+article.mainPosts img{
+    width: 330px;
+  }
+article.mainPosts{
+  width: 330px;
+}
+.mainContent{
+  padding: 10px;
+}
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 642px) {
+nav.rightMenu{
+  display: none;
+}
+article.mainPosts img{
+  width: 100%;
+}
+article.mainPosts{
+  width: 100%;
+}
+.mainContent{
+  width: 570px;
+}
+h2.blogName{
+  font-size: 20pt;
+}
+}
+@media (max-width: 641px) {
+.mainContent{
+  width: 95%;
+}
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+footer .leftInfo ul li{
+  display: block;
+}
+}
